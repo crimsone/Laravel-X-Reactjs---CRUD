@@ -10913,3 +10913,9 @@ body {
   width: 100px;
 }
 
+.leaflet-container {
+  margin-top: 10px;
+  height: 500px;
+  width: 100%;
+}
+

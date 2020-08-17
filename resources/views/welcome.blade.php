@@ -7,11 +7,11 @@
 
         <title>Laravel X Reactjs</title>
         
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
     </head>
     <body>
-        <div id="app"></div>
- 
+        <div id="app"></div> 
         <script src="{{asset('js/app.js')}}"></script>
     </body>
 </html>

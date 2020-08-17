@@ -8,6 +8,7 @@ import {
 import Home from './components/Home';
 import Add from './components/Add';
 import Edit from './components/Edit';
+import Mapping from './components/Mapping';
 
 const App = () => {
     return (
@@ -21,6 +22,9 @@ const App = () => {
                 </Route>
                 <Route path="/edit/:id">
                     <Edit />
+                </Route>
+                <Route path="/mapping">
+                    <Mapping />
                 </Route>
             </Switch>
         </Router>

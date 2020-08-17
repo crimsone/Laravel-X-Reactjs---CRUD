@@ -4,7 +4,12 @@ import AppContainer from './AppContainer';
 import api from '../api';
 
 const Home = () => {
+    //Hook
     const [posts, setPosts] = useState(null);
+
+    useEffect(() => {
+        fetchPosts();
+    }, [])
 
     const fetchPosts = () => {
         api.getAllPost().then(res => {
@@ -12,10 +17,6 @@ const Home = () => {
             setPosts(result.data)
         })
     }
-
-    useEffect(() => {
-        fetchPosts();
-    }, [])
 
     const renderPosts = () => {
         if(!posts) {
@@ -66,6 +67,7 @@ const Home = () => {
     return (
         <AppContainer title="Laravel X Reactjs">
             <Link to="/add" className="btn btn-primary">Add Here</Link>
+            <Link to="/mapping" className="btn btn-primary">Map</Link>
             <div className="table-responsive">
                 <table className="table table-striped mt-4">
                     <thead>
