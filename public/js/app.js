@@ -89164,7 +89164,7 @@ var Mapping = function Mapping() {
 /*! exports provided: hotel, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"hotel\":[{\"name\":\"Luxe hotel\",\"coordinates\":[8.483729,124.656671]},{\"name\":\"Seda hotel\",\"coordinates\":[8.484529,124.650506]},{\"name\":\"Red Planet\",\"coordinates\":[8.484883,124.654835]}]}");
+module.exports = JSON.parse("{\"hotel\":[{\"name\":\"Luxe hotel\",\"coordinates\":[8.483729,124.656671]},{\"name\":\"Seda hotel\",\"coordinates\":[8.484529,124.650506]},{\"name\":\"Traveler Pad\",\"coordinates\":[8.48431,124.656419]},{\"name\":\"Red Planet\",\"coordinates\":[8.484883,124.654835]}]}");
 
 /***/ }),
 
